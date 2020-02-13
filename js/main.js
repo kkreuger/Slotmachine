@@ -1,7 +1,7 @@
 var winning;
 var lightThree;
-var winningSound = new Audio('https://github.com/kkreuger/Slotmachine/blob/master/sounds/winning.mp3');
-var startSound = new Audio('https://github.com/kkreuger/Slotmachine/blob/master/sounds/startsound.mp3');
+var winningSound = new Audio('../sounds/winning.mp3');
+var startSound = new Audio('../sounds/startsound.mp3');
 
 function startGame() {
 	var status 		= document.getElementById('status');
