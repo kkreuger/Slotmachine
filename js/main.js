@@ -63,13 +63,13 @@ function showWinner(){
 	var status 		= document.getElementById('status');
 
 	if (((slot1 == slot2 && slot2 == slot3) ||
-		(slot1 == "a2" && slot2 == "a2" && slot3 == "a2") ||
-		(slot1 == slot2 && slot3 == "a2") ||
-		(slot1 == slot3 && slot2 == "a2") ||
-		(slot2 == slot3 && slot1 == "a2") ||
-		(slot1 == slot2 && slot1 == "a2") ||
-		(slot1 == slot3 && slot1 == "a2") ||
-		(slot2 == slot3 && slot2 == "a2") )){
+		(slot1 == "a7" && slot2 == "a7" && slot3 == "a7") ||
+		(slot1 == slot2 && slot3 == "a7") ||
+		(slot1 == slot3 && slot2 == "a7") ||
+		(slot2 == slot3 && slot1 == "a7") ||
+		(slot1 == slot2 && slot1 == "a7") ||
+		(slot1 == slot3 && slot1 == "a7") ||
+		(slot2 == slot3 && slot2 == "a7") )){
 		status.innerHTML = "YOU WIN!";
 		
 		winningSound.play();
